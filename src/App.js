@@ -1,5 +1,7 @@
+//src/App.js
 import logo from './logo.svg';
 import './App.css';
+import EmployeeList from './components/EmployeeList.js';
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <EmployeeList />
     </div>
   );
 }
